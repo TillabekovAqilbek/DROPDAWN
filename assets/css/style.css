@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #cfcccc33;
+}
+
+.select-menu{
+    width: 300px;
+    margin: 150px auto;
+}
+
+.select-menu .select-btn{
+    display: flex;
+    height: 55px;
+    background: #fff;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 8px;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.select-btn i{
+    font-size: 25px;
+    transition: 1s;
+}
+
+.select-menu.active .select-btn i{
+    transform: rotate(-360deg);
+}
+
+.select-menu .options{
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.1);
+    display: none;
+}
+
+.select-menu.active .options{
+    display: block;
+}
+
+
+.options .option{
+    display: flex;
+    height: 55px;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 0 16px;
+    align-items: center;
+    background: #fff;
+}
+
+
+.options .option:hover{
+    background: #f2f2f2;
+}
+
+.option i{
+    font-size: 25px;
+    margin-right: 12px;
+}
+
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+}
+/* .select-btn i{
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+
+.select-menu .options{
+    position: relative;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding:20px;
+    background-color: #fff;
+    display: none;
+
+}
+
+.options .option{
+        display: flex;
+        height: 55px;
+        cursor: pointer;
+        padding: 0 14px;
+        align-items: center;
+        border-radius: 8px;
+        background-color: #fff;
+    
+}
+
+.options .option:hover{
+    background-color: #bebebe;
+}
+
+.select-menu.active .select-btn i{
+    transform: rotate(-360deg);
+}
+
+.select-menu.active .options{
+    display: block;
+}
+
+.select-btn i{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+.option i{
+    font-size: 25px;
+    margin-right: 10px;
+
+}
+
+.option .option-text{
+    font-size: 18px;
+    color: #333;
+} */
